@@ -2,9 +2,9 @@
   "name": "debugkill",
   "displayName": "debugkill",
   "description": "Send a signal to terminate the debug process",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "gamelife2025",
-  "author": "gamelife2025 <noreply@gamelife2025.dev>",
+  "author": "gamelife2025",
   "license": "MIT",
   "repository": {
     "type": "git",
