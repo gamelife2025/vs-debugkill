@@ -3,6 +3,8 @@
   "displayName": "debugkill",
   "description": "my test",
   "version": "0.0.1",
+  "publisher": "gamelife2025",
+  "author": "gamelife2025 <noreply@gamelife2025.dev>",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -37,6 +39,8 @@
     "compile": "webpack",
     "watch": "webpack --watch",
     "package": "webpack --mode production --devtool hidden-source-map",
+    "vsce:package": "npx vsce package",
+    "vsce:publish": "npx vsce publish --pat $VSCE_TOKEN",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
