@@ -1,8 +1,8 @@
 {
   "name": "debugkill",
   "displayName": "debugkill",
-  "description": "my test",
-  "version": "0.0.1",
+  "description": "Send a signal to terminate the debug process",
+  "version": "1.0",
   "publisher": "gamelife2025",
   "author": "gamelife2025 <noreply@gamelife2025.dev>",
   "engines": {
@@ -12,7 +12,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onDebug"
+    "onDebug:go"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -24,10 +24,11 @@
         ],
         "menus": {
             "debug/toolBar": [
-                {
-                    "command": "extension.debugkillButton",
-                    "group": "1_modification"
-                }
+              {
+                "command": "extension.debugkillButton",
+                "group": "1_modification",
+                "when": "debugType == 'go'"
+              }
             ]
         },
     "activationEvents": [
