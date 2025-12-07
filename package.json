@@ -5,6 +5,7 @@
   "version": "0.0.2",
   "publisher": "gamelife2025",
   "author": "gamelife2025 <noreply@gamelife2025.dev>",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.99.0"
   },
