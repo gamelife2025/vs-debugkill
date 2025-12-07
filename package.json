@@ -6,6 +6,14 @@
   "publisher": "gamelife2025",
   "author": "gamelife2025 <noreply@gamelife2025.dev>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gamelife2025/vs-debugkill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gamelife2025/vs-debugkill/issues"
+  },
+  "homepage": "https://github.com/gamelife2025/vs-debugkill#readme",
   "engines": {
     "vscode": "^1.99.0"
   },
